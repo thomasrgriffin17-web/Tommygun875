@@ -15,7 +15,7 @@ This project keeps the *look* of a physical raffle drum while making draws digit
 ## 🚀 Features
 - Paste or import entries (CSV / Google Sheets)
 - 3-D or list-shuffle animation for the draw
-- Secure random selection (crypto-level RNG)
+- Secure random selection. tickets are tied to physics.
 - Audit log with seed + timestamp for verification
 - Simple web UI (React + Node)
 
