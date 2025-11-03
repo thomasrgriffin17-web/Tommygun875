@@ -25,17 +25,17 @@ This project keeps the *look* of a physical raffle drum while making draws digit
 | Layer | Tools |
 |-------|-------|
 | Frontend | React / Next.js + Three.js |
-| Backend | Node / Express + Supabase |
-| RNG | `crypto.getRandomValues()` |
+| Backend | Node / Express + Supabase maybe unity|
+| RNG | physics based tickets. ticket closest to origin wins. |
 | Build | Vite or Next.js |
 
 ---
 
 ## 🔐 Randomness Verification
-1. Generate a `serverSeed`, hash it, publish the hash.  
-2. Combine `serverSeed + timestamp + entryCount` → hash again.  
-3. `winnerIndex = hash % entryCount`.  
-4. Reveal `serverSeed` after the draw so anyone can verify.
+1. ability to assign tickets
+2. physics resct with eachother   
+3. true "tumble" of the drum
+4. repeat and test 
 
 ---
 
@@ -46,7 +46,7 @@ This project keeps the *look* of a physical raffle drum while making draws digit
 | Phase 1 | 3-D drum animation |
 | Phase 2 | Google Sheets import |
 | Phase 3 | Public “watch the draw” page |
-| Phase 4 | VRF (verifiable random function) integration |
+| Phase 4 | VRP verifiable randoms physics with tickrts |
 
 ---
 
